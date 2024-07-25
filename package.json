@@ -1,0 +1,19 @@
+{
+  "name": "zampet-home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/amigosdosanimais/.github.git",
+  "author": "Bianca Ribeiro Mazotti <biancaribeiromazotti@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
