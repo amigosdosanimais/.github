@@ -1,23 +1,12 @@
 @charset "UTF-8";
 
-:root{
-    --main-color: #f3f7ed;
-    --sidebar-color: #1e2614;
-    --header-color: #131c03;  
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    font: normal 14pt Arial;
-}
 
 
 
-body{
+.body{
     height: 100vh;
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 280px 1fr;
     grid-template-rows: 50px 1fr;
     grid-template-areas: "side header" "side main";
 }
