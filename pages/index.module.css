@@ -1,9 +1,39 @@
+@charset "UTF-8";
+
+
+.body{
+    height: 98vh;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    margin: -3px;
+    padding: 0;
+    gap: 0;
+    border: 0;
+}
+
+
+.header{
+    width: 100%;
+    grid-row: 1/2;
+    margin: 0;
+    padding: 0;
+}
+.bottom{
+    grid-row: 2/3;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
 .sidebar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 200px;
-    padding: 10px 14px;
-    background-color: gray;
+    display: inline-block;
+    background-color: #1e2614;
+    margin: 0;
+    padding: 0;
+    min-width: 20px;
+}
+.main{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }

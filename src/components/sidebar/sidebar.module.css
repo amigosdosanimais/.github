@@ -1,1 +1,65 @@
 @charset "UTF-8";
+
+.principal{
+  display: flex;
+  height: 100%;
+  min-height: 250px;
+  background-color: #1e2614;
+  gap: 0;
+}
+
+.menu{
+  background-color: #1e2614;
+  height: 100%;
+  border: 0;
+}
+.menuitem{
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+.menuimage{
+  height: 20px;
+  width: 20px;
+  margin: 15px;
+}
+
+
+
+.sbButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    z-index: 1000;
+    position: relative; 
+    margin-top: 15px;
+    
+  }
+  .buttonIcon {
+    width: 15px; 
+    height: 15px; 
+    margin-right: 8px; 
+  }
+
+
+  .logo{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+  }
+  .logozampet{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+  }
+  .logozampet h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
