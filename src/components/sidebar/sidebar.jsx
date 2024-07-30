@@ -21,10 +21,18 @@ export default function SidebarComponent(){
                 
                 <div className={styles.container}>
                     <Menu className={styles.header}>
+                        {collapsed?
+                        <button className={styles.sbButton} onClick={() => setCollapsed(!collapsed)}>
+                        <img src={'/images/expand.png'}/>   
+                        </button>:
                         <div className={styles.logozampet}>
                             <img className={styles.logo} src={'/images/logo.png'} />
                             <h1>ZAMPET</h1>
+                            <button className={styles.sbButton} onClick={() => setCollapsed(!collapsed)}>
+                                <img src={'/images/collapse.png'}/>   
+                            </button>
                         </div>
+                        }
                     </Menu>
                     
                     
@@ -103,11 +111,7 @@ export default function SidebarComponent(){
                 </div>
             </Sidebar>
             <div>
-                <button className={styles.sbButton} onClick={() => setCollapsed(!collapsed)}>
-                <img 
-                    src={collapsed ? '/images/expand.png' : '/images/collapse.png'}
-                />   
-                </button>
+                
             </div>  
       </div>
 
