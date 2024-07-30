@@ -2,17 +2,19 @@
 
 
 .body{
-    height: 98vh;
+    height: 100vh;
     display: grid;
     grid-template-rows: 40px 1fr;
-    margin: -3px;
+    margin: -10px -10px -30px -10px;
     padding: 0;
     gap: 0;
     border: 0;
+    background-color: #1e2614;
 }
 
 
 .header{
+    height: 97vh;
     width: 100%;
     grid-row: 1/2;
     margin: 0;
@@ -34,6 +36,4 @@
 }
 .main{
     display: inline-block;
-    margin: 0;
-    padding: 0;
 }
