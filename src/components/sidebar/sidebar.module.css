@@ -1,62 +1,80 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .principal{
   display: flex;
   height: 100%;
   min-height: 250px;
   background-color: #1e2614;
-  gap: 0;
+  
 }
 .container{
   background-color: #1e2614;
   height: 100%;
   display: grid;
-  grid-template-rows: 80px 1fr 80pxfr;
-  align-items: center;
-  align-content: space-between;
+  grid-template-rows: 0.5fr 4fr 0.5fr;
+  
+  width: 250px;
 }
+
+
 
 .sbButton {
     background-color: transparent;
     border: none;
-    padding: 0;
+    padding-top: 4px;
     cursor: pointer;
     border-radius: 5px;
     transition: 0.3s;
     z-index: 1000;
-    position: relative; 
-    margin-top: 15px;
+    position: relative;  
     
+}
+.sbButtonCollapse {
+  background-color: transparent;
+  border: none;
+  padding-top: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  z-index: 1000;
+  position: relative;
+  margin: 15px 0px 0px 15px;  
 }
 .buttonIcon {
   width: 15px; 
   height: 15px; 
-  margin-right: 8px; 
+  margin-right: 8px;
+  vertical-align: middle; 
 }
 
 
 .logo{
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   display: flex;
   align-items: center;
   margin: 15px;
 }
 .logozampet{
-  height: 30px;
+  height: 5vh;
   display: flex;
   align-items: center;
+  vertical-align: middle;
   padding: 20px;
-  margin-bottom: 50px;
   background-color: #1e2614;
+  margin-bottom: 20px;
 }
 .logozampet h1{
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  font-family: 'Roboto', sans-serif;
+  color: #F3F7ED;
   padding-top: 2px;
+  font-size: 20pt;
+  vertical-align: center;
 }
 .header{
   grid-row: 1/2;
+  width: 250px;
 }
 
 
@@ -65,12 +83,17 @@
   height: calc(100%-30px);
   border: 0;
   grid-row: 2/3;
+  width: 210px;
+  margin: left;
+  margin-left: 20px;
+  border-radius: 5px;
 }
 .menuitem{
-  color: #ffffff;
+  color: #F3F7ED;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;   
   margin-bottom: 20px;
+
 }
 .menuitem p{
   display: inline;
@@ -79,7 +102,7 @@
 .menuimage{
   height: 20px;
   width: 20px;
-  margin-left: 15px;
+  margin-left: 5px;
   margin-right: 30px;
   display: inline;
 }
@@ -89,20 +112,24 @@
 .profile{
   display: flex;
   align-items: center;
-  color: white;
+  color: #F3F7ED;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #1e2614;
   
 }
 
 .profile h1, .profile p{
-  margin: 0;
+  margin:0;
+  margin-left: 7px;
   padding: 0;
-  font-size: 14pt;
+  font-size: 10pt;
+}
+.profile p{
+  margin-bottom: 20px;
 }
 
 .imguser{
-  margin: 20px;
+  margin: 0px 3px 20px 21px;
 }
 .footer{
   grid-row: 3/4;

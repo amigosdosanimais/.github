@@ -7,18 +7,13 @@ import HeaderComponent from '../src/components/header/header'
 export default function HomePage(){
     return(
         <div className={styles.body}>
-            
                 <div className={styles.header}>
-                    <HeaderComponent  ></HeaderComponent>
+                    <HeaderComponent/>
                 </div>
-            
                 <div className={styles.bottom}>
-                    <SidebarComponent className={styles.sidebar}>
-                    </SidebarComponent>
-                                
-                                   <HomeComponent className={styles.main}></HomeComponent>
+                    <SidebarComponent className={styles.sidebar}/> 
+                    <HomeComponent className={styles.main}/>
                 </div>
-            
         </div>
     )
 }
