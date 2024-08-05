@@ -84,20 +84,37 @@
   border: 0;
   grid-row: 2/3;
   width: 210px;
-  margin: left;
-  margin-left: 20px;
-  border-radius: 5px;
+  margin: auto;
+  margin-top: 5px;
 }
-.menuitem{
-  color: #F3F7ED;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14pt;   
-  margin-bottom: 20px;
 
+.menuCollapse{
+  background-color: #1e2614;
+  height: calc(100%-30px);
+  border: 0;
+  grid-row: 2/3;
+  width: 63px;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.menuitem{
+  color: #888e80;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;   
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.menuitemCollapse{
+  color: #888e80;   
+  border-radius: 5px;
+  width: 20px;
+  margin: auto;
+  margin-bottom: 25px;
 }
 .menuitem p{
   display: inline;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .menuimage{
   height: 20px;
@@ -105,6 +122,12 @@
   margin-left: 5px;
   margin-right: 30px;
   display: inline;
+  padding-top: 10px;
+}
+.menuimageCollapse{
+  height: 20px;
+  width: 20px;
+  margin:auto;
 }
 
 
@@ -112,24 +135,57 @@
 .profile{
   display: flex;
   align-items: center;
-  color: #F3F7ED;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #1e2614;
-  
+  width: 210px;
+  height: 36px;
+ 
+  margin: auto;
 }
 
-.profile h1, .profile p{
-  margin:0;
-  margin-left: 7px;
-  padding: 0;
-  font-size: 10pt;
+.contact{
+  display: flex;
+  align-items: center;
+  
+  width: 134px;
+  height: 36px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:  ellipsis;
+}
+
+.profile h1{
+  width: 76px;
+  height: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #F3F7ED;
+  margin: 0;
 }
 .profile p{
-  margin-bottom: 20px;
+  width: 134;
+  height: 16;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #F3F7ED;
+  margin: 0;
 }
 
 .imguser{
-  margin: 0px 3px 20px 21px;
+  margin: 0px 3px 0px 5px;
+  padding-top: 5px;
+}
+.imglogout{
+  margin-left: 6px;
+  margin-top: 4px;
 }
 .footer{
   grid-row: 3/4;
