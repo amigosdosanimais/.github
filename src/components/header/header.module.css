@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.header{
+    background-color: #131C06;
+    height: 52px;
+    width: 100%;
+    border: 0px 0px 1px 0px solid #293020;
+    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.btnCadastrar{
+    width: 114px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #5C8A23;
+    padding: 6px 16px 6px 8px;
+    background-color: #5C8A23;
+    gap: 8px;
+    opacity: 99%;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.btnCadastrar p{
+    width: 62px;
+    height: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #F3F7ED; 
+    padding-top: 2px;   
+}

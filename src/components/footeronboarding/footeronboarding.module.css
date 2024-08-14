@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.footer{
+    height: 100%;
+    width: 100%;
+    background-color: #E1E1E1;
+    display: grid;
+    grid-template-columns: 66px 1fr 1fr 1fr 1fr 66px;
+    gap: 100px;
+}
+.esquerda{
+    grid-column: 2/3;
+    height: 180px;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.centroe{
+    grid-column: 3/4;
+}
+.centrod{
+    grid-column: 4/5;
+}
+.direita{
+    grid-column: 5/6;
+    
+}
+
+
+.btnlogo{
+    width: 280px;
+    height: 69px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #707070;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: none;
+    text-decoration: none;
+
+}
+.contato{
+    width: 280px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+}
+
+
+.footer h1{
+    margin-top: 44px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.text{
+    margin-top: 33px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+}
