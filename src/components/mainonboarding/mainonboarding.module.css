@@ -6,7 +6,7 @@
     background-color: white;
     display: grid;
     grid-template-columns:  166px 1fr 1fr 166px;
-    grid-template-rows: 80px  1fr 1fr 1fr 200px;
+    grid-template-rows: 80px  1fr 1fr 200px 130px;
     gap: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -41,9 +41,14 @@
     justify-content: space-between;
 }
 .grid6{
-    background-color: lightyellow;
+    background-color: white;
     grid-column: 2/4 ;
     grid-row: 4/5;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: -50px;
 }
 .grid7{
     grid-column: 3/4 ;
@@ -53,6 +58,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    
 }
 .grid8{
     grid-column: 2/3 ;
@@ -62,6 +68,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    
 }
 
 
@@ -112,3 +119,12 @@
     justify-content: space-between
 }
 
+
+
+.titulogrid6{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    margin-bottom: -50px;
+}

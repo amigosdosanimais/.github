@@ -30,7 +30,7 @@ export default function MainOnboardingComponent(){
                 <button className={styles.btn3}><a className={styles.link} href="#">Conheça o projeto</a></button>
             </div>
             <div className={styles.grid6}>
-                <h1>Faça parte da Zampet!</h1>
+                <h1 className={styles.titulogrid6}>Faça parte da Zampet!</h1>
                 <p>Chamada para se tornar um voluntário ou inscrever a ONG no sistema.</p>
             </div>
             <div className={styles.grid7}>
