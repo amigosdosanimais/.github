@@ -11,7 +11,7 @@ export default function HomePage(){
                 <div className={styles.header}><HeaderOnboardingComponent/></div>
                 <div className={styles.main}><MainOnboardingComponent/></div>
                 <div className={styles.footer}><FooterOnboardingComponent/></div>
-                <div><Button/></div>
+                <div><Button icon='true'></Button></div>
         </div>
     )
 }
