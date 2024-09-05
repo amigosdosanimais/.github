@@ -3,13 +3,15 @@ import HeaderOnboardingComponent from '../src/components/headeronboarding/header
 import { MdMargin } from 'react-icons/md'
 import FooterOnboardingComponent from '../src/components/footeronboarding/footeronboarding'
 import MainOnboardingComponent from '../src/components/mainonboarding/mainonboarding'
+import Button from '../src/components/button/button'
 
 export default function HomePage(){
     return(
-        <div className={styles.principal}>            
+        <div>            
                 <div className={styles.header}><HeaderOnboardingComponent/></div>
                 <div className={styles.main}><MainOnboardingComponent/></div>
                 <div className={styles.footer}><FooterOnboardingComponent/></div>
+                <div><Button/></div>
         </div>
     )
 }
