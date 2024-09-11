@@ -1,8 +1,9 @@
 .footer {
-    background-color: #e6e6e6; /* Cor de fundo igual ao da imagem */
-    padding: 20px;
-    text-align: center;
-    color: #333;
+  background-color: #e6e6e6; /* Cor de fundo igual ao da imagem */
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  z-index: 999;
   }
   
   .container {
