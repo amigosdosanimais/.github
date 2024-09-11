@@ -9,7 +9,7 @@ export default function HeaderOnboardingComponent(){
             </a>
         </button>
         <button className={styles.btnlogin}>
-            <a className={styles.link} href="/homepage">Login</a>
+            <a className={styles.link} href="/homePage">Login</a>
         </button>
         </div>
     )
