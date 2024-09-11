@@ -1,4 +1,4 @@
-import styles from "./headeronboarding.module.css"
+import styles from "./headerOnboarding.module.css"
 
 export default function HeaderOnboardingComponent(){
     return(

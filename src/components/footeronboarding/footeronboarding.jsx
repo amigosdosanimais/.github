@@ -1,4 +1,4 @@
-import styles from "./footeronboarding.module.css"
+import styles from "./footerOnboarding.module.css"
  export default function FooterOnboardingComponent(){
     return(
         <div className={styles.footer}>

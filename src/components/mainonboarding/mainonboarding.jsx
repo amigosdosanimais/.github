@@ -1,4 +1,4 @@
-import styles from "./mainonboarding.module.css"
+import styles from "./mainOnboarding.module.css"
 
 export default function MainOnboardingComponent(){
     return(
