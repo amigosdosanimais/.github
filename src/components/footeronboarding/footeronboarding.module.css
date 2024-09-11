@@ -3,7 +3,7 @@
 .footer{
     height: 100%;
     width: 100vw;
-    background-color: #E1E1E1;
+    background-color: var(--color-danger);
     display: grid;
     grid-template-columns: 66px 1fr 1fr 1fr 1fr 66px;
     gap: 100px;
