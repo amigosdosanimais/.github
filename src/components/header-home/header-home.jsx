@@ -8,7 +8,6 @@ export default function Header() {
             <div className={styles.text_login}>
                 <img src="/images/fi-rr-plus-small.svg" alt="Plus Icon" className={styles.plusIcon} />
                 Login
-
             </div>
         </button>
     </div>
