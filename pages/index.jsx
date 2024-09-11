@@ -5,7 +5,6 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import WelcomeCard from '../src/components/welcomeCard/welcomeCard';
 import InfoCard from '../src/components/infoCard/infoCard';
-import joinUsCard from '../src/components/joinUsCard/joinUsCard';
 import JoinUsCard from '../src/components/joinUsCard/joinUsCard';
 
 config.autoAddCss = false;
