@@ -8,6 +8,7 @@
     gap: 8px;
     flex-shrink: 0;
     border-radius: 100px;
+    margin: 0px;
   }
    .text{
     text-align: center;
@@ -17,6 +18,8 @@
     font-weight: 400;
     line-height: 155.99%; /* 21.839px */
     letter-spacing: -0.42px;
+    display: inline-flex;
+    align-items: center;
    }
 
 
@@ -26,6 +29,7 @@
   .dark {
     background-color: var(--color-g400);
     color: var(--color-g50);
+    stroke: var(--color-g50);
     border: none;
   }
   
@@ -68,19 +72,24 @@
 
   /* Default no botão light */
   .light {
-    background-color: white;
-    color: black;
-    border: 1px solid #aaa;
+    background-color: var(--color-white);
+    color: var(--color-g400);
+    stroke: var(--color-g400);
+    border: 2px solid var(--color-g400);
   }
   
   /* Hover no botão light */
   .light:hover {
-    background-color: #f9f9f9;
+    background-color: var(--color-white);
+    color: var(--color-g600);
+    border: 2px solid var(--color-g600);
   }
   
   /* Pressed (ativo) no botão light */
   .light:active {
-    background-color: #f0f0f0;
+    background-color: var(--color-white);
+    color: var(--color-g900);
+    border: 2px solid var(--color-g900);
   }
   
 
@@ -96,9 +105,11 @@
 
   /* Estilo para o ícone dentro do botão */
   .icon {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin: 0px;
+    display: inline;
   }
   
 

@@ -1,19 +1,18 @@
 import styles from './button.module.css'
-import IconSVG from '../../../public/images/icon-plus.svg'
+import IconSVG from './icon-plus.svg';
 
 export default function Button ({
     type = 'dark',
     disabled = false,
     icon = false,
     text = 'Botão',
-    width = '84px',
+    width = '100px',
     height = '48px',
     shadow = false,
     onClick
 })
     {
         const buttonClasses = `${styles.button} ${styles[type]} ${disabled ? styles.disabled : ''} ${shadow ? styles.shadow : ''}`;
-
         
         return (
             <button
@@ -22,8 +21,11 @@ export default function Button ({
                 onClick={onClick}
                 disabled={disabled}
             >
-                {icon && <IconSVG className={styles.icon}/>}
-                <p className={styles.text}>{text}</p>
+                <p className={styles.text}>
+                    {icon && <IconSVG className={styles.icon}/>}
+                    {text}
+                </p>
             </button>
+            
         )
     }
