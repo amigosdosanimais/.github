@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* Estilos básicos do botão */
+  .button {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 100px;
+  }
+   .text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.99%; /* 21.839px */
+    letter-spacing: -0.42px;
+   }
+
+
+  /* Estilo para botões tipo dark */
+
+  /* Default no botão dark */
+  .dark {
+    background-color: var(--color-g400);
+    color: var(--color-g50);
+    border: none;
+  }
+  
+  /* Hover no botão dark */
+  .dark:hover {
+    background-color: var(--color-g600);
+    color: var(--color-g50);
+  }
+  
+  /* Pressed (ativo) no botão dark */
+  .dark:active {
+    background-color: var(--color-g900);
+    color: var(--color-g50);
+  }
+  
+
+
+  /* Estilo para botões tipo default */
+
+  /* Default no botão default */
+  .default {
+    background-color: #e0e0e0;
+    color: black;
+    border: 1px solid #ccc;
+  }
+  
+  /* Hover no botão default */
+  .default:hover {
+    background-color: #d5d5d5;
+  }
+  
+  /* Pressed (ativo) no botão default */
+  .default:active {
+    background-color: #bdbdbd;
+  }
+  
+
+
+  /* Estilo para botões tipo light */
+
+  /* Default no botão light */
+  .light {
+    background-color: white;
+    color: black;
+    border: 1px solid #aaa;
+  }
+  
+  /* Hover no botão light */
+  .light:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Pressed (ativo) no botão light */
+  .light:active {
+    background-color: #f0f0f0;
+  }
+  
+
+
+  /* Estilo para o estado disabled (desabilitado) */
+  .disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+  }
+  
+
+
+  /* Estilo para o ícone dentro do botão */
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+
+
+  /* Estilo para sombra */
+  .shadow {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  }

@@ -4,7 +4,7 @@ export default function HeaderOnboardingComponent(){
     return(
         <div className={styles.header}>
         <button className={styles.btnlogo}>
-            <a className={styles.link} href="/">
+            <a className={styles.link} href="/testComponents">
                 Logotipo
             </a>
         </button>
