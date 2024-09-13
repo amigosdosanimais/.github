@@ -1,0 +1,34 @@
+/* BreadcrumbsComponent.module.css */
+.breadcrumbs {
+    padding: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o Breadcrumbs */
+}
+
+.breadcrumbItem {
+    font-weight: bold;
+    color: var(--Cinza-400, #888);
+}
+
+.breadcrumbItem:hover {
+    text-decoration: underline;
+}
+
+.separatorIcon {
+    color: #555;
+}
+
+/* Estilizando o nome da página atual */
+.breadcrumbCurrentPage {
+    font-style: italic; /* Deixa o texto em itálico */
+    font-weight: bold;  /* Torna o texto mais destacado */
+    color: var(--Cinza-800, #454545);     /* Cor diferente para destacar */
+}
+
+/* Centraliza o conteúdo da página */
+.pageContainer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */           /* Faz o container ter a altura total da página */
+}
