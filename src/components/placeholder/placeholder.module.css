@@ -1,0 +1,25 @@
+
+.imagePlaceholder {
+    display: flex;
+    padding: 20px 28px;
+    width: 1180px;
+    height: 430px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 28px;
+    background: var(--Cinza-200, #D1D1D1);
+    margin: 20px auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;/*position: relative; Torna o container um contêiner de posicionamento relativo */
+  }
+  
+  .image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 20px;
+  }
