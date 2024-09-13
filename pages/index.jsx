@@ -16,8 +16,13 @@ export default function HomePage() {
 
     return (
         <div className={styles.principal}>
+
             <Header />
-            <BreadcrumbsComponent />
+
+            <div className={styles.breadcrumbs}>
+                <BreadcrumbsComponent />
+            </div>
+            
             <WelcomeCard />
             <InfoCard />
             <JoinUsCard />
