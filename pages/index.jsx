@@ -1,17 +1,32 @@
-import styles from './index.module.css'
-import HeaderOnboardingComponent from '../src/components/headerOnboarding/headerOnboarding'
-import { MdMargin } from 'react-icons/md'
-import FooterOnboardingComponent from '../src/components/footerOnboarding/footerOnboarding'
-import MainOnboardingComponent from '../src/components/mainOnboarding/mainOnboarding'
+import * as React from 'react';
+import styles from './index.module.css';
+import Header from '../src/components/header-home/header-home';
+import Footer from '../src/components/footer/footer';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import WelcomeCard from '../src/components/welcomeCard/welcomeCard';
+import InfoCard from '../src/components/infoCard/infoCard';
+import JoinUsCard from '../src/components/joinUsCard/joinUsCard';
+import BreadcrumbsComponent from '../src/components/breadcrumbsComponent/breadcrumbsComponent';
 
-export default function HomePage(){
-    return(
+config.autoAddCss = false;
+
+
+export default function HomePage() {
+
+    return (
         <div className={styles.principal}>
-                           
-                <div className={styles.header}><HeaderOnboardingComponent/></div>
-                <div className={styles.main}><MainOnboardingComponent/></div>
-                <div className={styles.footer}><FooterOnboardingComponent/></div>
-               
+
+            <Header />
+
+            <div className={styles.breadcrumbs}>
+                <BreadcrumbsComponent />
+            </div>
+            
+            <WelcomeCard />
+            <InfoCard />
+            <JoinUsCard />
+            <Footer />
         </div>
-    )
+    );
 }
