@@ -7,7 +7,7 @@ export default function Header() {
         <button className={styles.login_button}>
             <div className={styles.text_login}>
                 <img src="/images/fi-rr-plus-small.svg" alt="Plus Icon" className={styles.plusIcon} />
-                Login
+                <a href="./testComponents">Login</a>
             </div>
         </button>
     </div>
