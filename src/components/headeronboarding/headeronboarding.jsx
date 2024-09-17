@@ -1,15 +1,15 @@
-import styles from "./headeronboarding.module.css"
+import styles from "./headerOnboarding.module.css"
 
 export default function HeaderOnboardingComponent(){
     return(
         <div className={styles.header}>
         <button className={styles.btnlogo}>
-            <a className={styles.link} href="/">
+            <a className={styles.link} href="/testComponents">
                 Logotipo
             </a>
         </button>
         <button className={styles.btnlogin}>
-            <a className={styles.link} href="/homepage">Login</a>
+            <a className={styles.link} href="/homePage">Login</a>
         </button>
         </div>
     )

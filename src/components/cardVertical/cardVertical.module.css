@@ -1,0 +1,78 @@
+.card{
+    background: var(--branco, #FFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px 28px;
+    margin-bottom: 20px;
+    margin-right: 28px;
+    margin-left: 28px;
+    width: 363px;
+    height: 632px;
+    flex-direction: column;
+}
+
+.cardVerticals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background: var(--branco, #FFF);
+    display: flex;
+    
+    width: 300px;
+    height: 186px;
+
+    overflow: hidden;
+    color: var(--Cinza-900, #3D3D3D);
+    text-overflow: ellipsis;
+    /* Tipografia/Regular/Roboto-regular/H5 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.99%; /* 31.198px */
+    letter-spacing: -0.6px;
+}
+
+.title p {
+    background: var(--branco, #fff);
+    display: flex;
+    width: 300px;
+    height: 94px;
+    margin: 0;
+    padding-top: 28px;
+    
+
+    color: var(--Cinza-900, #3D3D3D);
+    /* Tipografia/Bold/Alef-bold/H1 */
+    font-family: Alef;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+
+    letter-spacing: -1.8px;
+}
+
+/* quadrado cinza */
+
+.imagePlaceholder {
+    width: 300px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--Cinza-200, #D1D1D1);
+    position: relative;/*position: relative; Torna o container um contêiner de posicionamento relativo */
+  }
+  
+  .image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 20px;
+  }
