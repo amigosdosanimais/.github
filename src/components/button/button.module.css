@@ -30,6 +30,7 @@
     background-color: var(--color-g400);
     color: var(--color-g50);
     stroke: var(--color-g50);
+    fill: var(--color-g50);
     border: none;
   }
   
@@ -51,19 +52,29 @@
 
   /* Default no botão default */
   .default {
-    background-color: #e0e0e0;
-    color: black;
-    border: 1px solid #ccc;
+    background-color: var(--color-white);
+    color: var(--color-g900);
+    stroke: var(--color-g900);
+    fill: var(--color-g900);
+    border: none;
   }
   
   /* Hover no botão default */
   .default:hover {
-    background-color: #d5d5d5;
+    background-color: var(--color-g50);
+    color: var(--color-g900);
+    stroke: var(--color-g900);
+    fill: var(--color-g900);
+    border: none;
   }
   
   /* Pressed (ativo) no botão default */
   .default:active {
-    background-color: #bdbdbd;
+    background-color: var(--color-g200);
+    color: var(--color-g900);
+    stroke: var(--color-g900);
+    fill: var(--color-g900);
+    border: none;
   }
   
 
@@ -75,6 +86,7 @@
     background-color: var(--color-white);
     color: var(--color-g400);
     stroke: var(--color-g400);
+    fill: var(--color-g400);
     border: 2px solid var(--color-g400);
   }
   
@@ -82,6 +94,8 @@
   .light:hover {
     background-color: var(--color-white);
     color: var(--color-g600);
+    stroke: var(--color-g600);
+    fill: var(--color-g600);
     border: 2px solid var(--color-g600);
   }
   
@@ -89,15 +103,38 @@
   .light:active {
     background-color: var(--color-white);
     color: var(--color-g900);
+    stroke: var(--color-g900);
+    fill: var(--color-g900);
     border: 2px solid var(--color-g900);
   }
   
 
 
   /* Estilo para o estado disabled (desabilitado) */
-  .disabled {
-    background-color: #ccc;
-    color: #999;
+  .dark.disabled {
+    background-color: var(--color-g200);
+    color: var(--color-g50);
+    stroke: var(--color-g50);
+    fill: var(--color-g50);
+    border: none;
+    cursor: not-allowed;
+  }
+
+  .default.disabled {
+    background-color: var(--color-white);
+    color: var(--color-g300);
+    stroke: var(--color-g300);
+    fill: var(--color-g300);
+    border: none;
+    cursor: not-allowed;
+  }
+
+  .light.disabled {
+    background-color: var(--color-white);
+    color: var(--color-g200);
+    stroke: var(--color-g200);
+    fill: var(--color-g200);
+    border: 2px solid var(--color-g300);
     cursor: not-allowed;
   }
   
@@ -107,14 +144,13 @@
   .icon {
     width: 20px;
     height: 20px;
-    padding: 2px;
-    margin: 0px;
-    display: inline;
+    display: inline-flex;
+    align-items: center;
   }
   
 
 
   /* Estilo para sombra */
   .shadow {
-    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
   }
