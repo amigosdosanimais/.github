@@ -7,7 +7,8 @@
 }
 
 .breadcrumbItem {
-    font-weight: bold;
+    font-family: var(--font-roboto);
+    font-weight: 400;
     color: var(--Cinza-400, #888);
 }
 
@@ -16,13 +17,13 @@
 }
 
 .separatorIcon {
-    color: #555;
+    color: var(--Cinza-600, #5d5d5d);
 }
 
 /* Estilizando o nome da página atual */
 .breadcrumbCurrentPage {
     font-style: italic; /* Deixa o texto em itálico */
-    font-weight: bold;  /* Torna o texto mais destacado */
+    font-weight: 600;  /* Torna o texto mais destacado */
     color: var(--Cinza-800, #454545);     /* Cor diferente para destacar */
 }
 

@@ -1,6 +1,6 @@
 .card-vertical {
   align-items: center;
-  background-color: var(--colors-branco);
+  background-color: var(--branco);
   border-radius: 20px;
   display: inline-flex;
   gap: 40px;
@@ -31,7 +31,7 @@
 }
 
 .card-vertical .rectangle {
-  background-color: var(--colors-cinza-200);
+  background-color: var(--Cinza-200);
   border-radius: 15px;
   transform: rotate(180deg);
 }
@@ -87,7 +87,7 @@
 .card-vertical .div {
   -webkit-box-orient: vertical;
   line-clamp: 6;
-  color: var(--colors-cinza-900);
+  color: var(--Cinza-900);
   display: -webkit-box;
   font-family: var(--tipografia-regular-roboto-regular-h5-font-family);
   font-size: var(--tipografia-regular-roboto-regular-h5-font-size);
@@ -116,7 +116,7 @@
 .card-vertical .bot-o-default {
   align-items: center;
   border: 2px solid;
-  border-color: var(--colors-cinza-400);
+  border-color: var(--Cinza-400);
   border-radius: 100px;
   box-shadow: var(--default);
   display: flex;
@@ -144,7 +144,7 @@
 }
 
 .card-vertical .text-wrapper-2 {
-  color: var(--colors-cinza-400);
+  color: var(--Cinza-400);
   font-family: var(--tipografia-regular-roboto-regular-lb-font-family);
   font-size: var(--tipografia-regular-roboto-regular-lb-font-size);
   font-style: var(--tipografia-regular-roboto-regular-lb-font-style);
@@ -159,7 +159,7 @@
 
 .card-vertical .state-layer-wrapper {
   align-items: center;
-  background-color: var(--colors-cinza-400);
+  background-color: var(--Cinza-400);
   border-radius: 100px;
   box-shadow: var(--default);
   display: flex;
@@ -174,7 +174,7 @@
 }
 
 .card-vertical .text-wrapper-3 {
-  color: var(--colors-cinza-50);
+  color: var(--Cinza-50);
   font-family: var(--tipografia-regular-roboto-regular-lb-font-family);
   font-size: var(--tipografia-regular-roboto-regular-lb-font-size);
   font-style: var(--tipografia-regular-roboto-regular-lb-font-style);
@@ -198,7 +198,7 @@
 }
 
 .card-vertical .text-wrapper-4 {
-  color: var(--colors-cinza-900);
+  color: var(--Cinza-900);
   font-family: var(--tipografia-bold-alef-bold-h1-font-family);
   font-size: var(--tipografia-bold-alef-bold-h1-font-size);
   font-style: var(--tipografia-bold-alef-bold-h1-font-style);
@@ -224,7 +224,7 @@
 .card-vertical .p {
   -webkit-box-orient: vertical;
   line-clamp: 6;
-  color: var(--colors-cinza-900);
+  color: var(--Cinza-900);
   display: -webkit-box;
   font-family: var(--tipografia-regular-roboto-regular-h5-font-family);
   font-size: var(--tipografia-regular-roboto-regular-h5-font-size);
@@ -245,7 +245,7 @@
 
 .card-vertical.stroke {
   border: 2px solid;
-  border-color: var(--colors-cinza-400);
+  border-color: var(--Cinza-400);
 }
 
 .card-vertical.nenhum.stroke {

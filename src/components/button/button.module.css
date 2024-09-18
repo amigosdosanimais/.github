@@ -27,23 +27,23 @@
 
   /* Default no botão dark */
   .dark {
-    background-color: var(--color-g400);
-    color: var(--color-g50);
-    stroke: var(--color-g50);
-    fill: var(--color-g50);
+    background-color: var(--Cinza-400);
+    color: var(--Cinza-50);
+    stroke: var(--Cinza-50);
+    fill: var(--Cinza-50);
     border: none;
   }
   
   /* Hover no botão dark */
   .dark:hover {
-    background-color: var(--color-g600);
-    color: var(--color-g50);
+    background-color: var(--Cinza-600);
+    color: var(--Cinza-50);
   }
   
   /* Pressed (ativo) no botão dark */
   .dark:active {
-    background-color: var(--color-g900);
-    color: var(--color-g50);
+    background-color: var(--Cinza-900);
+    color: var(--Cinza-50);
   }
   
 
@@ -52,28 +52,28 @@
 
   /* Default no botão default */
   .default {
-    background-color: var(--color-white);
-    color: var(--color-g900);
-    stroke: var(--color-g900);
-    fill: var(--color-g900);
+    background-color: var(--branco);
+    color: var(--Cinza-900);
+    stroke: var(--Cinza-900);
+    fill: var(--Cinza-900);
     border: none;
   }
   
   /* Hover no botão default */
   .default:hover {
-    background-color: var(--color-g50);
-    color: var(--color-g900);
-    stroke: var(--color-g900);
-    fill: var(--color-g900);
+    background-color: var(--Cinza-50);
+    color: var(--Cinza-900);
+    stroke: var(--Cinza-900);
+    fill: var(--Cinza-900);
     border: none;
   }
   
   /* Pressed (ativo) no botão default */
   .default:active {
-    background-color: var(--color-g200);
-    color: var(--color-g900);
-    stroke: var(--color-g900);
-    fill: var(--color-g900);
+    background-color: var(--Cinza-200);
+    color: var(--Cinza-900);
+    stroke: var(--Cinza-900);
+    fill: var(--Cinza-900);
     border: none;
   }
   
@@ -83,58 +83,58 @@
 
   /* Default no botão light */
   .light {
-    background-color: var(--color-white);
-    color: var(--color-g400);
-    stroke: var(--color-g400);
-    fill: var(--color-g400);
-    border: 2px solid var(--color-g400);
+    background-color: var(--branco);
+    color: var(--Cinza-400);
+    stroke: var(--Cinza-400);
+    fill: var(--Cinza-400);
+    border: 2px solid var(--Cinza-400);
   }
   
   /* Hover no botão light */
   .light:hover {
-    background-color: var(--color-white);
-    color: var(--color-g600);
-    stroke: var(--color-g600);
-    fill: var(--color-g600);
-    border: 2px solid var(--color-g600);
+    background-color: var(--branco);
+    color: var(--Cinza-600);
+    stroke: var(--Cinza-600);
+    fill: var(--Cinza-600);
+    border: 2px solid var(--Cinza-600);
   }
   
   /* Pressed (ativo) no botão light */
   .light:active {
-    background-color: var(--color-white);
-    color: var(--color-g900);
-    stroke: var(--color-g900);
-    fill: var(--color-g900);
-    border: 2px solid var(--color-g900);
+    background-color: var(--branco);
+    color: var(--Cinza-900);
+    stroke: var(--Cinza-900);
+    fill: var(--Cinza-900);
+    border: 2px solid var(--Cinza-900);
   }
   
 
 
   /* Estilo para o estado disabled (desabilitado) */
   .dark.disabled {
-    background-color: var(--color-g200);
-    color: var(--color-g50);
-    stroke: var(--color-g50);
-    fill: var(--color-g50);
+    background-color: var(--Cinza-200);
+    color: var(--Cinza-50);
+    stroke: var(--Cinza-50);
+    fill: var(--Cinza-50);
     border: none;
     cursor: not-allowed;
   }
 
   .default.disabled {
-    background-color: var(--color-white);
-    color: var(--color-g300);
-    stroke: var(--color-g300);
-    fill: var(--color-g300);
+    background-color: var(--branco);
+    color: var(--Cinza-300);
+    stroke: var(--Cinza-300);
+    fill: var(--Cinza-300);
     border: none;
     cursor: not-allowed;
   }
 
   .light.disabled {
-    background-color: var(--color-white);
-    color: var(--color-g200);
-    stroke: var(--color-g200);
-    fill: var(--color-g200);
-    border: 2px solid var(--color-g300);
+    background-color: var(--branco);
+    color: var(--Cinza-200);
+    stroke: var(--Cinza-200);
+    fill: var(--Cinza-200);
+    border: 2px solid var(--Cinza-300);
     cursor: not-allowed;
   }
   
