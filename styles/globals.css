@@ -1,24 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 
 :root{
-    --color-white:#ffffff;
-    --color-black:#000000;
+    --branco:#ffffff;
+    --preto:#000000;
 
-    --color-g50:#f6f6f6;
-    --color-g100:#e7e7e7;
-    --color-g200:#d1d1d1;
-    --color-g300:#b0b0b0;
-    --color-g400:#888888;
-    --color-g500:#6d6d6d;
-    --color-g600:#5d5d5d;
-    --color-g700:#4f4f4f;
-    --color-g800:#454545;
-    --color-g900:#3d3d3d;
-    --color-g950:#1e1e1e;
-
+    --Cinza-50:#f6f6f6;
+    --Cinza-100:#e7e7e7;
+    --Cinza-200:#d1d1d1;
+    --Cinza-300:#b0b0b0;
+    --Cinza-400:#888888;
+    --Cinza-500:#6d6d6d;
+    --Cinza-600:#5d5d5d;
+    --Cinza-700:#4f4f4f;
+    --Cinza-800:#454545;
+    --Cinza-900:#3d3d3d;
+    --Cinza-950:#1e1e1e;
+    
     --color-sucess:#119b69;
     --color-warning:#fba14e;
     --color-danger:#e03131;
 
     --font-roboto: 'Roboto', sans-serif;
+    --font-alef: 'Alef', sans-serif;
+}
+
+h1{
+    font-family: var(--font-alef);
+    color: var(--Cinza-900);
+}
+
+p{
+    font-family: var(--font-roboto);
+    color: var(--Cinza-900);
 }

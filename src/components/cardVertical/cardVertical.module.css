@@ -30,7 +30,7 @@
     color: var(--Cinza-900, #3D3D3D);
     text-overflow: ellipsis;
     /* Tipografia/Regular/Roboto-regular/H5 */
-    font-family: Roboto;
+    font-family: var(--font-roboto);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -49,7 +49,7 @@
 
     color: var(--Cinza-900, #3D3D3D);
     /* Tipografia/Bold/Alef-bold/H1 */
-    font-family: Alef;
+    font-family: var(--font-alef);
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
