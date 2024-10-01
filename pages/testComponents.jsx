@@ -1,7 +1,7 @@
 import { RxButton } from 'react-icons/rx'
 import Button from '../src/components/button/button'
 import InputComponent from '../src/components/input/input'
-
+import Divider from '../src/components/divider/divider'
 
 export default function TestComponents (){
     return(
@@ -35,6 +35,9 @@ export default function TestComponents (){
         </div>
         <div>
             <InputComponent></InputComponent>
+        </div>
+        <div>
+            <Divider></Divider>
         </div>
         </>
     )

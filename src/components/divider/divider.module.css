@@ -1,0 +1,15 @@
+.divider{
+    display: flex;
+   width:288px ;
+    padding: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.rectangle{
+    height: 2px;
+    align-self: stretch;
+    border-radius: 100px;
+    background: var(--Cinza-950, #1E1E1E);
+}
