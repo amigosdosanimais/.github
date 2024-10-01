@@ -1,5 +1,6 @@
 import { RxButton } from 'react-icons/rx'
 import Button from '../src/components/button/button'
+import InputComponent from '../src/components/input/input'
 
 
 export default function TestComponents (){
@@ -28,6 +29,12 @@ export default function TestComponents (){
         </div>
         <div>
             <Button type='light' icon width='200px' text='Cadastrar' shadow></Button>
+        </div>
+        <div>
+            -----------------------------------------------------------------------------------------------------------------------------
+        </div>
+        <div>
+            <InputComponent></InputComponent>
         </div>
         </>
     )

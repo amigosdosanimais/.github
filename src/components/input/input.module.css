@@ -1,0 +1,55 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+.inputLabel {
+font-size: 12px;
+font-family: var(--font-roboto);
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.4px;
+width: 31px;
+height: 16px;
+color: var(--Cinza-800);
+position: relative;
+top: -8px;
+background: #fff;
+padding: 0 4px;
+margin-left: 16px;
+z-index: 1;
+margin-bottom: -17px;
+}
+
+.inputField {
+color: var(--Cinza-600, #5D5D5D);
+font-family: var(--font-roboto);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.5px;
+border-radius: 10px;
+border: 1px solid var(--Cinza-400, #888);
+padding: 16px;
+outline: none;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.supportText {
+    color: var(--Cinza-800, #454545);
+    font-family: var(--font-roboto);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    letter-spacing: 0.4px;
+    margin-top: 5px;
+    margin-left: 16px;
+}
